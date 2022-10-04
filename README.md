@@ -4,15 +4,10 @@
 
 This project aims to predict a person's intended hand and arm movement using their brain activity. The data was collected during an experiment where subjects performed a series of grasp and lift trials while wearing a 64 channel EEG headset. 
 
-## Dataset
-
-The [Dataset](https://www.kaggle.com/c/grasp-and-lift-eeg-detection) was uploaded to Kaggle and used for a competition in 2015. It contains data collected from 12 subjects, each performing 10 series of trials. [This video](https://youtu.be/XmgohaEAdjg) represents the 6 movements included within a single trial. The subjects were asked to perform the tasks as the light goes on. The graph below represents these tasks as a function of time. Each task is represented by 1 during its occurence and 0 otherwise.
-
-![alt text](https://github.com/Atlaskz/Bionic-AI-Predicting-Grasp-and-Lift-Motions/blob/main/Images/motions.png?style=centerme)
 
 The below figure represents a downsampled version of the electrodes’ activity in a timeframe of 50 millisecond before, and 100 millisecond after the event onset for the first task (Called “HandStart”). The sampling rate is 500 Hz, which means the readings were collected every 2 milliseconds. 
 
-![alt text](https://github.com/Atlaskz/Bionic-AI-Predicting-Grasp-and-Lift-Motions/blob/main/Images/e1.png?style=centerme)
+![alt text](https://github.com/Sanjay-Chhaba/Brain_activity/blob/main/Images/e1.png?style=centerme)
 
 
 The above graph has a distinct peak reflecting the action potential collected by electrodes placed on the motor cortex. Such peaks are not always observable when using a non invasive EEG device. This is mainly due to the noise and artifacts resulting from the large distance between the electrodes and the signal source. The following figures represent tasks 2 and 3 of the same trial:
