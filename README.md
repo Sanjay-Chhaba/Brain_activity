@@ -45,7 +45,7 @@ Below is a graph of the AUC score from the 6 models. AUC was used as the perform
 
 As shown in the figure above, scenario 1 performed the worst while the advanced model from scenario 3 performed best. The aim of this project was to explore the potential of creating a general model that works well on new subjects. As seen in results from scenario 2, a CNN can predict these moevments for a new subject with an average accuarcy of X%.
 
-To demonstrate the reatime predictions a [short demo](https://youtu.be/HbB8mPIOpm0) was created for a single trial. The above graph shows the true events (in orange) and the corresponding predictions (in blue). The lower graph represents the activity of the 32 electrodes during the trial.
+The above graph shows the true events (in orange) and the corresponding predictions (in blue). The lower graph represents the activity of the 32 electrodes during the trial.
 
 In the top graph, the least overlap is observed in event 5, which could be a result of the custom loss function created for finding a threshold for the binary classification. However, each event occurs in a timeframe of 75 milliseconds, which means event 5's prediction is delayed by less than 0.075 seconds only.
 
